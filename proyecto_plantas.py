@@ -23,7 +23,7 @@ informacion = {
 }
 
 def menu_principal ():
-    print('<1> MWh planta/ciudad\n<2> MWh plantas/ciudad\n<3> Dinero recaudado por región')
+    print('<1> MWh planta/ciudad\n<2> MWh plantas/ciudad\n<3> Dinero recaudado por región\n<4> Terminar programa')
 
 def primer_menu ():
     p = str(input('Ingrese el nombre de la planta(mayus): '))
@@ -77,7 +77,7 @@ def segundo_menu ():
     elif c == 'LOJA':
         print('SOPLADORA:', sum(consumo_energia['Sopladora']['Loja']['consumos']),'MWh')
     else:
-        print('¡LA CIUDAD DE LA QUE DESEA OBTENER INFORMACION NO ENTREGA ENERGIA!')
+        print('¡LA CIUDAD DE LA QUE DESEA OBTENER INFORMACION NO RECIBE ENERGIA!')
 
 def tercer_menu ():
     r = str(input('Ingrese el nombre de una region(mayus): '))
