@@ -118,3 +118,6 @@ while op != 0:
         tercer_menu ()
         print('¡REGRESANDO AL MENU PRINCIPAL!')
         break
+    while m1 == 4:
+        print('¡TERMINANDO PROGRAMA!')
+        quit ()
